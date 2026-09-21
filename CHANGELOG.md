@@ -1,5 +1,9 @@
 # Norma changelog
 
+## 2026-09-21-1415 — 2026-09-21
+
+- update whats new
+
 ## 2026-09-21-1403 — 2026-09-21
 
 - Frissítés után rövid összefoglalót mutat a Norma arról, mi változott.
