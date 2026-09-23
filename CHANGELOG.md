@@ -1,5 +1,9 @@
 # Norma changelog
 
+## 2026-09-23-0942 — 2026-09-23
+
+- update news modal
+
 ## 2026-09-23-0919 — 2026-09-23
 
 - A versenytárs kártyája rövidebb lett: az ellenőrzött bejelentkezésnél már csak a jelvény látszik, a hosszú magyarázó szöveg nélkül. Ha tennivaló van (nincs bejelentkezve, hiba, nyitva a bejelentkező ablak), a magyarázat továbbra is ott marad.
