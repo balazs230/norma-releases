@@ -1,5 +1,23 @@
 # Norma changelog
 
+## 2026-09-24-1033 — 2026-09-24
+
+- EUTruckParts: a keresés közvetlenül a találati oldalon indul, és tovább vár a lassan válaszoló webshopra, így elkerüli a kezdőoldal betöltésénél tapasztalt időtúllépést.
+- Inter Cars és HIFI FILTER: a kártyáikon már elmenthető a felhasználónév és a jelszó. A Norma a mentett adatokkal bejelentkezik; az Inter Cars kétlépcsős belépését is kezeli. A Cloudflare emberi ellenőrzését továbbra is kézzel kell elvégezni.
+- Bárdi Auto: javítottuk az automatikus bejelentkezést, hogy a Norma a rejtett belépési panelt is megnyissa a mentett adatok kitöltése előtt.
+- Auto Brand: lejárt munkamenetnél a Norma a mentett adatokkal újra bejelentkezik, és folytatja az összehasonlítást. Javítottuk a sikeres belépés után jelentkező téves „bejelentkezés szükséges” leállást.
+- HIFI FILTER: a kártya a többi webshopéval azonos kezelőelemeket használ; eltávolítottuk a külön emberi ellenőrzés gombot. A sikeres bejelentkezés-ellenőrzés után már nem marad tévesen „Bejelentkezés szükséges” állapotban.
+- Új versenytárs: **HIFI FILTER**. A kártyáján nyisd meg a bejelentkezést, és a webshop ablakában lépj be; az esetleges Cloudflare-ellenőrzést is ott végezd el. A keresés a saját nettó árakat, az elérhetőség jelzését és a HIFI által megadott megfelelőket olvassa. Ugyanaz a szűrő több gyártói hivatkozás esetén is csak egyszer jelenik meg.
+- Új versenytárs: **Inter Cars**. A kártyáján nyisd meg a bejelentkezést, és a webshop ablakában lépj be; az esetleges Cloudflare-ellenőrzést is ott végezd el. A keresés látható böngészőablakban fut, a saját nettó és bruttó árakat, készletet és az Inter Cars által jelölt OEM megfelelőket olvassa.
+- Auto Brand: a raktáron lévő alkatrész mostantól „Ma” elérhetőként és a készlet mennyiségével jelenik meg (melyik raktárban hány darab van). Eddig tévesen a szállítási időt mutattuk (például 14 nap), akkor is, ha az Auto Brand raktárában volt belőle.
+- A webshopok két fülre kerültek az oldal tetején: **Versenytársak** és **Beszállítók**. Az Opoltrans mostantól a Beszállítók között van. Mindig a nyitott fül webshopjainál keresünk, és mindkét fülnek saját előzménye van: a korábbi összehasonlítások a Versenytársak fülön maradnak, a Beszállítók fül üresen indul. A Norma megjegyzi, melyik fül volt utoljára nyitva.
+- Új versenytárs: **Unix Auto**. A kártyáján add meg a belépési adataidat (partnerkód vagy e-mail és jelszó), utána az összehasonlítás a Unix Auto árait is lekéri.
+- Új versenytárs: **Elit**. A kártyáján add meg a belépési adataidat, utána az összehasonlítás az Elit árait is lekéri. Az Elit maga jelzi, ha egy termék a keresett kód megfelelője, ezért ezek „OEM megfelelő” jelölést kapnak.
+- Új versenytárs: **Jarex** (szűrők). A kártyáján add meg a belépési adataidat. A kék (kedvezményes) árat hasonlítjuk össze, nettóként; a szürke, áthúzott ár eredeti árként látszik. A Jarex által egy eredeti kódhoz sorolt termékek „OEM megfelelő” jelölést kapnak.
+- Új, első helyen álló webshop: **EUTruckParts**. Nyilvános árak, bejelentkezés nélkül. Termékenként minden vásárlási lehetőség megjelenik: a saját készletről („Ma”) és a beszállítótól rendelhető („Pár nap”) is, a saját ára szerint.
+- Új versenytárs: **Vos Truckparts** (DAF, Scania és Volvo teherautó-alkatrészek, új és használt, euróban). Ehhez nem kell bejelentkezni: a nyilvános webshopból olvassuk az árakat, a kártyáján ezért nincs belépés. A használt alkatrészeket „(használt)” jelöli.
+- A kinyitott találatoknál minden ajánlat kártyáján a versenytárs neve mellett ott a logója is, így első ránézésre látszik, kié az ajánlat.
+
 ## 2026-09-23-0942 — 2026-09-23
 
 - update news modal
