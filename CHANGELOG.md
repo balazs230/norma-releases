@@ -1,5 +1,15 @@
 # Norma changelog
 
+## 2026-09-24-1336 — 2026-09-24
+
+- Inter Cars és HIFI FILTER: javítottuk az ismétlődő emberi ellenőrzést okozó böngészőindítást. Bejelentkezéskor a webshop önálló böngészőablakban fut. Az ellenőrzés és a belépés után hagyd nyitva az ablakot, majd a Normában válaszd a **Mentés és böngésző bezárása** gombot. Csak a sikeres bejelentkezést mentjük; egy félbehagyott ellenőrzést nem jelölünk késznek.
+- Új versenytárs: **AICAT (Augsburg)**. A saját nettó és bruttó árakat, a raktárkészletet és a webshop által jelölt alternatívákat is lekérjük. A bejelentkezés és a keresés külön, látható böngészőablakban fut; a belépési adatok a kártyán elmenthetők.
+- Az Excel-exportban új munkalap: **Legolcsóbb ajánlatok**. Alkatrészenként egy sort tartalmaz, a legolcsóbb ajánlattal (ugyanazzal, amelyet a táblázat „Legolcsóbb ajánlat” oszlopa mutat). Az összes ajánlat továbbra is az első munkalapon található.
+- EUTruckParts: megbízhatóbb keresés, amikor a webshop lassan válaszol. A Norma tovább vár az első találati oldalra, a további oldalakat egyszerre tölti be, és ha ezek közül egy nem érkezik meg időben, a már beolvasott találatokat megtartja, jelezve, hogy a lista hiányos lehet.
+- A legolcsóbb ajánlat kiemelése (a soronkénti halványzöld is) csak olyan ajánlatra kerül, amelynél a webshop készletet vagy szállítási határidőt ad meg. Ha egy nem elérhető vagy ismeretlen elérhetőségű ajánlat olcsóbb lenne, szaggatott keretes sárga cella jelzi („legolcsóbb, nem elérhető” / „legolcsóbb, elérhetőség ismeretlen”), és a „Legolcsóbb ajánlat” oszlop is kiírja az árát és a webshopot. Ilyenkor az Excel- és CSV-exportban is az elérhető ajánlat kapja a legolcsóbb jelölést.
+- A webshopok paneljének tetején új **Mind keresésben** pipa: egy kattintással kijelölheted vagy kiveheted a fül összes webshopját.
+- Vos Truckparts: a webshop csak a raktáron lévő alkatrészeket listázza, ezért minden megtalált alkatrész „Készleten” jelzést kap. A darabszámot és a szállítási határidőt a webshop nem adja meg, ezek továbbra is ismeretlenek.
+
 ## 2026-09-24-1033 — 2026-09-24
 
 - EUTruckParts: a keresés közvetlenül a találati oldalon indul, és tovább vár a lassan válaszoló webshopra, így elkerüli a kezdőoldal betöltésénél tapasztalt időtúllépést.
