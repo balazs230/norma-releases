@@ -1,5 +1,16 @@
 # Norma changelog
 
+## 2026-09-25-1943 — 2026-09-25
+
+- A webshopok kártyái kisebbek lettek: ha minden rendben van, csak a név, egy zöld „Bejelentkezve” jelzés és két kis gomb látszik. Ha teendő van (bejelentkezés, ellenőrzés, hiba), a kártya kinyílik, és leírja, mit kell tenni. A megnyitott fül egész kerete a fül színét kapja, így görgetés közben is látszik, melyik csoportot nézed.
+- Az „Új összehasonlítás” rész átláthatóbb lett: a beírási minta közvetlenül a mezőben látszik, a CSV-importálás és az alkatrészek száma a mező alján van, a keresés típusa és az árak kapcsolóként választhatók, az indítás gombja pedig mellette mondja meg, mit fog keresni. A korábbi összehasonlítások választója a fülek fölé került.
+- Keresés közben az Auto Brand, AICAT, AutoS, Inter Cars és HIFI FILTER böngészőablaka nem ugrik többé előre: rögtön kis méretre (a tálcára) kerül, így nem veszi el a fókuszt attól, amin éppen dolgozol. A Bárdi ablaka továbbra is előtérben nyílik meg, mert kis méretben az árak beolvasása jóval lassabb lenne. A kártyáról megnyitott bejelentkező ablakok előtérben maradnak.
+- Összesítés: a legolcsóbb versenytársi és beszállítói ajánlat mellett a termék képe is látszik (kattintásra nagyban nyílik meg), a cikkszám melletti ikon pedig a webshop termékoldalát nyitja meg.
+- Inter Cars és HIFI FILTER: az ajánlatok termékképe és termékoldal-linkje eddig nem jelent meg, most megjelenik.
+- Suder: a „Notify when available” jelölésű termékek nem számítanak többé „nem rendelhetőnek”: a webshop ezeknél a fiókteleppel való egyeztetést kéri, ezért ellenőrizendőként jelennek meg. Az „Available 2-7 days” jelölésű termékek pár napon belül szállíthatóként jelennek meg.
+- Suder: ha a keresésre egyetlen termék van, a webshop rögtön a termékoldalt nyitja meg; ilyenkor eddig „Az oldal megváltozott” hibát kaptál, most a terméket ugyanúgy beolvassuk, mint a találati listában.
+- Új beszállító: **Sampa** (a török teherautóalkatrész-gyártó Sampa Connect webshopja, euróban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat; a webshop bejelentkezése egy napig érvényes, ezért érdemes elmenteni őket, hogy a Norma magától újra bejelentkezhessen. A fiókod nettó egységárát hasonlítjuk össze. A Sampa saját cikkszámára keresve pontos találatot kapsz; OEM- vagy más gyártói számra keresve azok a Sampa-termékek, amelyeket a webshop ennek a számnak a megfelelőjeként listáz, OEM megfelelőként jelennek meg. Ha a termék csak másik Sampa-raktárban van készleten, a raktár szállítási határideje (pl. 10–15 nap) szerepel mellette; a „rendelésre” jelölésű termékeket ellenőrizni kell.
+
 ## 2026-09-25-1427 — 2026-09-25
 
 - Új beszállító: **Hidropneumat** (horvát teherautó-, hidraulikai és pneumatikai alkatrészek, euróban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat. A fiókod árát hasonlítjuk össze: a webshop a rendeléseidre nem számol áfát, ezért nettó árként kezeljük. A webshop nem jelöl OEM megfelelőket, és a keresése a termékek nevében és leírásában is keres, ezért a más cikkszámú találatok (például a kódot tartalmazó szűrőkészletek) bizonytalanként, átnézésre jelennek meg.
