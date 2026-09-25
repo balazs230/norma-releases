@@ -1,5 +1,21 @@
 # Norma changelog
 
+## 2026-09-25-1427 — 2026-09-25
+
+- Új beszállító: **Hidropneumat** (horvát teherautó-, hidraulikai és pneumatikai alkatrészek, euróban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat. A fiókod árát hasonlítjuk össze: a webshop a rendeléseidre nem számol áfát, ezért nettó árként kezeljük. A webshop nem jelöl OEM megfelelőket, és a keresése a termékek nevében és leírásában is keres, ezért a más cikkszámú találatok (például a kódot tartalmazó szűrőkészletek) bizonytalanként, átnézésre jelennek meg.
+- Inter Cars: a sok webshopot egyszerre kereső összehasonlításban a keresés ritkábban szakad meg „Az oldal megváltozott” vagy „Keresés sikertelen” hibával; a lassabban betöltődő árakra tovább várunk.
+- Inter Cars: a gyári alkatrészek („OE HONDA”, „OE OPEL” …) gyártója az autógyártó neve, így ha a keresésben gyártót is megadsz (pl. Honda), a gyári cikk pontos találatnak számít.
+- Unix Auto: a gyári alkatrészeknél a webshop nem adja meg a cikkszámot, ezért ezek nem számíthatnak pontos találatnak; az ajánlatnál ezt külön jelezzük.
+- A webshopok „Keresésben” jelölése megmarad: amit kiveszel a keresésből, az az oldal frissítése és az újraindítás után is kimarad, amíg vissza nem jelölöd.
+- Új beszállító: **Winkler** (német teherautó-, busz- és mezőgazdasági alkatrészek, euróban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat. Az áfa nélküli vevői árat hasonlítjuk össze; más gyártó cikke akkor számít OEM megfelelőnek, ha a webshop szerint a keresett kódon keresztül találta meg.
+- Új beszállító: **DieselDR** (magyar teherautó- és buszalkatrészek, forintban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat. A nettó eladási egységárat hasonlítjuk össze; OEM megfelelőnek azok a cikkek számítanak, amelyeket a webshop a keresett cikk termékoldalán alternatívaként listáz. A webshop nem ad meg gyártót, ezért a gyártó üres marad.
+- Új beszállító: **Martex** (lengyel teherautó-alkatrészek, euróban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat. A nettó vevői árat hasonlítjuk össze, ha a webshopban a „Prices client” (vevői árak) megjelenítés van beállítva. Egy kód keresése itt fél percig is eltarthat, mert az OEM megfelelőket egyenként ellenőrizzük a webshop termékadatlapjain.
+- Új beszállító: **AutoS** (lengyel teherautó-alkatrészek, euróban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat. A kereséskor egy böngészőablak nyílik meg, mert a webshop a háttérben futó böngészőt nem engedi be. A nettó vevői árat hasonlítjuk össze; más gyártó cikke akkor számít OEM megfelelőnek, ha a webshop a keresett kód katalógusszáma alatt vagy helyettesítőjeként listázza.
+- Új beszállító: **Suder** (lengyel teherautó- és pótkocsi-alkatrészek, euróban), a Beszállítók fülön. A kártyáján jelentkezz be, vagy add meg a belépési adataidat. A nettó árat hasonlítjuk össze; ha a webshop a nettó és a bruttó árat azonosnak mutatja, azt az ajánlatnál jelezzük. Más gyártó cikke csak akkor számít OEM megfelelőnek, ha a webshop termékoldala a keresett kódot a cikk számai között listázza.
+- A **Vos Truckparts** a Beszállítók fülre került: az árai az összesítésben a beszállítói oldalon szerepelnek.
+- Új **Összesítés** a fülek alatt: alkatrészenként a legolcsóbb versenytársi és beszállítói ár egymás mellett, a különbséggel RON-ban és százalékban (zöld: a beszállító olcsóbb, piros: egy versenytárs olcsóbb). Saját Excel-exportja van.
+- Közös keresés: a keresőmező a lap tetejére került, és egy összehasonlítás egyszerre keres a versenytársaknál és a beszállítóknál. Alatta a **Versenytársak** és a **Beszállítók** fül a webshopok kártyáit és az eredményeket csoportonként, külön mutatja; az Excel- és CSV-export az éppen nyitott fül eredményét tartalmazza. A korábbi összehasonlítások a keresőmező alatti listából választhatók.
+
 ## 2026-09-24-1336 — 2026-09-24
 
 - Inter Cars és HIFI FILTER: javítottuk az ismétlődő emberi ellenőrzést okozó böngészőindítást. Bejelentkezéskor a webshop önálló böngészőablakban fut. Az ellenőrzés és a belépés után hagyd nyitva az ablakot, majd a Normában válaszd a **Mentés és böngésző bezárása** gombot. Csak a sikeres bejelentkezést mentjük; egy félbehagyott ellenőrzést nem jelölünk késznek.
