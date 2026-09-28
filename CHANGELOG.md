@@ -1,5 +1,13 @@
 # Norma changelog
 
+## 2026-09-28-2209 — 2026-09-28
+
+- Stabilabb bejelentkezés: a bejelentkezett webshopok böngészője az összehasonlítás után nyitva marad (láthatatlanul vagy a tálcán, kis méretben), így a következő keresés ugyanabban a bejelentkezésben folytatódik, és nem kell újra belépni. A Norma tízpercenként ránéz ezekre a webshopokra, hogy a bejelentkezés ne járjon le; egy óra használaton kívül bezárja őket. Ha egy ilyen ablakot bezársz, a következő keresés újat nyit.
+- Ha egy webshop keresés közben kiléptet, a Norma a mentett belépési adatokkal újra bejelentkezik, egy összehasonlításon belül szükség esetén többször is, amíg a webshop elfogadja az adatokat. A webshop által elutasított jelszót továbbra sem küldi el újra.
+- A Bárdi ablaka keresés közben továbbra is előtérben van, két összehasonlítás között viszont a tálcára kerül.
+- Inter Cars és HIFI FILTER: a Cloudflare automatikus ellenőrzését („Just a moment…”) néhány másodpercig kivárjuk, és ha magától eltűnik, a keresés folytatódik. Ha kattintást kér, továbbra is a kártyáról megnyitott bejelentkező ablakban kell elvégezni.
+- Unix Auto, eOriginal és Jarex: a sikertelen automatikus bejelentkezést csak akkor tekintjük hibás jelszónak, ha a webshop ezt ki is írja. Eddig ilyenkor a mentett belépés kikapcsolódhatott; ha a kártyán még hibás jelszót látsz, nyomd meg az „Újra megpróbálom” gombot.
+
 ## 2026-09-25-1943 — 2026-09-25
 
 - A webshopok kártyái kisebbek lettek: ha minden rendben van, csak a név, egy zöld „Bejelentkezve” jelzés és két kis gomb látszik. Ha teendő van (bejelentkezés, ellenőrzés, hiba), a kártya kinyílik, és leírja, mit kell tenni. A megnyitott fül egész kerete a fül színét kapja, így görgetés közben is látszik, melyik csoportot nézed.
