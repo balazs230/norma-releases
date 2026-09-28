@@ -1,5 +1,9 @@
 # Norma changelog
 
+## 2026-09-28-2229 — 2026-09-28
+
+- Auto Brand: ha a webshop egy kódra semmit nem talál (például 04E 121 600 BD), eddig tévesen „Az oldal megváltozott” hiba jelent meg; most „nincs találat” az eredmény.
+
 ## 2026-09-28-2209 — 2026-09-28
 
 - Stabilabb bejelentkezés: a bejelentkezett webshopok böngészője az összehasonlítás után nyitva marad (láthatatlanul vagy a tálcán, kis méretben), így a következő keresés ugyanabban a bejelentkezésben folytatódik, és nem kell újra belépni. A Norma tízpercenként ránéz ezekre a webshopokra, hogy a bejelentkezés ne járjon le; egy óra használaton kívül bezárja őket. Ha egy ilyen ablakot bezársz, a következő keresés újat nyit.
