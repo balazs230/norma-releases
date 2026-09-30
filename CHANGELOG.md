@@ -1,5 +1,9 @@
 # Norma changelog
 
+## 2026-10-01-0013 — 2026-09-30
+
+- update supplier logins
+
 ## 2026-09-28-2229 — 2026-09-28
 
 - Auto Brand: ha a webshop egy kódra semmit nem talál (például 04E 121 600 BD), eddig tévesen „Az oldal megváltozott” hiba jelent meg; most „nincs találat” az eredmény.
