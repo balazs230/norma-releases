@@ -1,5 +1,15 @@
 # Norma changelog
 
+## 2026-10-14-0003 — 2026-10-13
+
+- Dubhe és Jarex: ha a webshop megszakította a bejelentkezést, eddig tévesen „Az oldal megváltozott” hiba jelent meg. Most a Norma a mentett belépési adatokkal magától újra bejelentkezik (ha nincsenek mentve, „Bejelentkezés szükséges” jelenik meg). A Jarexnél egy elakadt bejelentkezés miatt a webshop minden oldala hibát adott, a bejelentkező ablak is; a Norma ezt most felismeri, és új bejelentkezést kezd.
+- Az EUTruckParts, a saját webshopunk, külön szerepel az eredményekben: az oszlopa sötétkék keretet és „Saját webshop” címkét kapott, a szürke sorban pedig a saját eladási árunk látszik. A versenytársak ára alatt az is ott van, hány százalékkal olcsóbbak (piros) vagy drágábbak (zöld) nálunk. A legolcsóbb ajánlat már sosem a saját webshopunk, hanem mindig egy versenytárs; a jobb szélső oszlop azt is kiírja, hány százalékkal van a saját árunk alatt vagy felett.
+- Összesítés: új „Saját webshop” oszlop mutatja a saját árunkat, és hogy nálunk a legolcsóbb-e az alkatrész, vagy egy versenytárs olcsóbban adja („Versenytárs alákínál”). Az Excel-exportban is megjelenik, az összes ajánlat listájában pedig a saját webshop sorai „(saját webshop)” jelölést kapnak.
+- AutoS, Hidropneumat és Sampa: a szóközzel írt cikkszámokat (például W 610/6 vagy 04E 121 600 BD) ezek a webshopok szavanként keresik, ezért eddig a sok, oda nem illő találat miatt a keresés hibával leállt. Most a Norma szóközök és írásjelek nélkül is rákeres, így megtalálja a pontos cikket, vagy „nincs találat” az eredmény.
+- Martex: egy lassú vagy félbeszakadt automatikus bejelentkezés után a Norma tévesen hibásnak jelölhette a mentett jelszót. Most csak akkor teszi ezt, ha a webshop kiírja, hogy a jelszó hibás. Ha a kártyán hibás jelszót látsz, pedig a jelszó jó, nyomd meg az „Újra megpróbálom” gombot.
+- Opoltrans: ha sok egymás utáni keresés után a webshop ideiglenesen korlátozza a lekérdezéseket, ez egyszerű keresési hibaként jelenik meg, nem „Az oldal megváltozott” figyelmeztetésként. Kis idő múlva próbáld újra.
+- Auto Brand: ha a webshop egy kódra semmit nem talál (például 04E 121 600 BD), eddig tévesen „Az oldal megváltozott” hiba jelent meg; most „nincs találat” az eredmény.
+
 ## 2026-10-14-0000 — 2026-10-13
 
 - own webshop as reference price; fix dubhe/jarex signed-out detection
