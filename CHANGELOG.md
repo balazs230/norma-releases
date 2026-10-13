@@ -1,5 +1,9 @@
 # Norma changelog
 
+## 2026-10-14-0000 — 2026-10-13
+
+- own webshop as reference price; fix dubhe/jarex signed-out detection
+
 ## 2026-10-01-0013 — 2026-09-30
 
 - update supplier logins
