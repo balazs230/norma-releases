@@ -1,5 +1,14 @@
 # Norma changelog
 
+## 2026-10-29-0030 — 2026-10-28
+
+- Javítottuk a Unix Auto, az Opoltrans és a Winkler egyes kereséseinél tévesen jelzett oldalváltozást. A Materom biztonsági ellenőrzése most a bejelentkező ablakban végezhető el; a Norma ezt nem jelzi oldalhibának.
+- Egy webshop hibája vagy lejárt bejelentkezése már nem állítja le az egész keresést: az csak akkor áll le automatikusan, ha az összes kijelölt webshop több mint 30%-ánál hiba történt. A már lekért eredmények megmaradnak; a „Nincs találat” nem számít hibának.
+- EUTruckParts: a saját webshop új megjelenése miatt egyes keresések tévesen „Az oldal megváltozott” hibával álltak le. A Norma most az új terméklistából is kiolvassa a cikkeket, árakat és szállítási információkat.
+- Tesztverzió: **Alkatrész azonosítása** panel a keresés fölött, külön jelöléssel és halvány lila kerettel. Másold be az ajánlatkérő e-mail szövegét (magyarul vagy románul), és a Norma kiolvassa belőle a járművet (gyártmány, típus, évjárat, alvázszám), a kért alkatrészeket (tengely, oldal, darabszám), valamint a szövegben szereplő cikkszámokat. Azt is megmondja, mit kell még megkérdezni a megrendelőtől (pl. alvázszám, első vagy hátsó tengely). Minden felismert adat átírható.
+- Saját nyilvántartás: a korábban azonosított alkatrészeket (jármű, alkatrész, cikkszám) a Norma megjegyzi, és ugyanahhoz az alvázszámhoz, típushoz vagy gyártmányhoz legközelebb felajánlja őket. A meglévő listádat CSV-ből töltheted be: a panelen letöltheted a sablont, Excelben kitöltheted, majd importálhatod.
+- A talált cikkszám egy gombnyomással a keresett alkatrészek közé kerül, és a keresés az utángyártott megfelelőket is megmutatja. A gyári katalógusokat (partslink24, 7zap, Diesel Technic, Inter Cars, Sampa) a panelről nyithatod meg.
+
 ## 2026-10-14-0003 — 2026-10-13
 
 - Dubhe és Jarex: ha a webshop megszakította a bejelentkezést, eddig tévesen „Az oldal megváltozott” hiba jelent meg. Most a Norma a mentett belépési adatokkal magától újra bejelentkezik (ha nincsenek mentve, „Bejelentkezés szükséges” jelenik meg). A Jarexnél egy elakadt bejelentkezés miatt a webshop minden oldala hibát adott, a bejelentkező ablak is; a Norma ezt most felismeri, és új bejelentkezést kezd.
