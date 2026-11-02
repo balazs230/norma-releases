@@ -1,5 +1,11 @@
 # Norma changelog
 
+## 2026-11-02-2349 — 2026-11-02
+
+- Átláthatóbb alkatrészazonosítás: felül bemásolhatod az ajánlatkérést, alatta rögtön ellenőrizheted és javíthatod a felismert alkatrészeket, pozíciókat és mennyiségeket. Az egyes alkatrészekhez hozzárendelheted a szövegben talált cikkszámot, és innen indíthatod a TecDoc-keresést. A járműadatok szerkesztése és a korábbi azonosítások lenyithatók, a külső katalóguslinkek kikerültek.
+- TecDoc: ismert gyári OE-számhoz lekérhetők az utángyártott cikkek, gyártóval, műszaki adatokkal és feltételekkel. A kiválasztott cikkszámok a megadott mennyiséggel kerülnek a keresési listába. Az API-kulcs ezen a gépen, titkosítva tárolható.
+- Az azonosított alkatrészek hozzáadása megtartja a választott kereséstípust, kihagyja a már listában lévő azonos cikkeket, és hiba esetén nem ad hozzá félbehagyott kijelölést.
+
 ## 2026-10-29-0030 — 2026-10-28
 
 - Javítottuk a Unix Auto, az Opoltrans és a Winkler egyes kereséseinél tévesen jelzett oldalváltozást. A Materom biztonsági ellenőrzése most a bejelentkező ablakban végezhető el; a Norma ezt nem jelzi oldalhibának.
