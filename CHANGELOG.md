@@ -1,5 +1,17 @@
 # Norma changelog
 
+## 2026-11-22-2141 — 2026-11-22
+
+- Új felépítés: a munka három lépés, **Azonosítás**, **Keresés** és **Összevetés**. A lap tetején lévő lépéssor mindegyikről mutatja a legfontosabbat (hol tart, mi hiányzik, mennyi van kész); rákattintva bármikor átválthatsz, és semmi nem vész el. A Norma most a teljes képernyőszélességet használja.
+- Azonosítás: a bemásolt ajánlatkérésben színesen látszik, mit ismert fel a Norma (jármű, alkatrész, mennyiség, cikkszám). Minden kért alkatrész egy sor; rákattintva látod, honnan lehet hozzá cikkszám: a szövegből, a saját nyilvántartásból, a TecDocból vagy kézzel. A **Listára** gombbal kerül a keresési listába.
+- Keresés: a keresési lista táblázatként szerkeszthető, hosszú listát szövegként is beilleszthetsz. A webshopok közül elöl áll, amelyik teendőt kér; a többi egy-egy sor. Indítás után a beállítások egy sorba csukódnak, és lent élőben töltődnek fel a táblázatok, a **Versenytársak** és a **Beszállítók** fül között váltva.
+- Összevetés: alkatrészenként a saját árunk, a legolcsóbb versenytárs, a legolcsóbb beszállító és a különbség, és szöveges magyarázat arról, mi miért alakult így. A számlálókra kattintva szűrhetsz (pl. csak ahol egy versenytárs alákínál).
+- Az oldal frissítése után is megmarad a bemásolt ajánlatkérés és a keresési lista; futó keresésnél a Norma a Keresés lépésre tér vissza. A saját nyilvántartás és a TecDoc-kulcs a **Beállítások** alá került.
+- A „2017-es” és hasonló évszámokat a Norma már évjáratnak olvassa, nem cikkszámnak.
+- Javítottuk, hogy egyes cikkszámokra (például Volvo féktárcsáknál) a TecDoc-keresés „nem sikerült biztonságosan feldolgozni” hibát adott, pedig volt találat.
+- Auto Brand: a webshop új címre költöztette a bejelentkezést, ezért a Norma „oldal megváltozott” hibát jelzett. Az új címmel a keresés és az automatikus bejelentkezés újra működik.
+- Martex: ha a keresésre egyetlen, a webshop által nem forgalmazott termék jön, a Norma most „Nincs találat”-ot ír „oldal megváltozott” helyett. Ha a Martex túl sok keresés után átmenetileg nem válaszol, az ideiglenes hibaként jelenik meg.
+
 ## 2026-11-02-2349 — 2026-11-02
 
 - Átláthatóbb alkatrészazonosítás: felül bemásolhatod az ajánlatkérést, alatta rögtön ellenőrizheted és javíthatod a felismert alkatrészeket, pozíciókat és mennyiségeket. Az egyes alkatrészekhez hozzárendelheted a szövegben talált cikkszámot, és innen indíthatod a TecDoc-keresést. A járműadatok szerkesztése és a korábbi azonosítások lenyithatók, a külső katalóguslinkek kikerültek.
